@@ -12,8 +12,8 @@ function App() {
       <MenuBar></MenuBar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/countries" element={<Countries />}/>
-        <Route path='/countries/:countryName' element={<CountryDetail/>}/>
+        <Route path="countries" element={<Countries />}/>
+        <Route path='countries/:countryName' element={<CountryDetail/>}/>
         <Route path="about" element={<About />} />
       </Routes>
     </div>
